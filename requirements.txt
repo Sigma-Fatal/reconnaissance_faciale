@@ -1,0 +1,22 @@
+# ============================================================
+# Reconnaissance Faciale Pro - Dépendances
+# ============================================================
+
+# --- Vision par ordinateur et reconnaissance faciale ---
+opencv-python>=4.8.0
+dlib>=19.24.0
+face-recognition>=1.3.0
+face-recognition-models>=0.3.0
+
+# --- Interface graphique ---
+customtkinter>=5.2.0
+Pillow>=10.0.0
+
+# --- Calcul numérique ---
+numpy>=1.24.0,<2.0.0
+
+# --- Synthèse vocale (optionnel) ---
+pyttsx3>=2.90
+
+# --- Utilitaires ---
+packaging>=23.1

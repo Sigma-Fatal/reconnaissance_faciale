@@ -1,0 +1,32 @@
+# Environnement virtuel
+.venv/
+venv/
+env/
+
+# Cache Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+
+# Données sensibles (NE PAS COMMIT)
+data/images_reference/*
+data/encodages/*.pkl
+data/captures/*
+data/exports/*
+!data/**/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
